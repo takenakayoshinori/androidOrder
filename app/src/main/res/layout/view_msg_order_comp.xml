@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ID_VIEW_MSG"
+    android:background="@drawable/background_ichimatsu"
+    android:onClick="onClick">
+
+    <FrameLayout
+        android:id="@+id/foodstandlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f49cc4">
+
+        <ImageView
+            android:id="@+id/foodstandIcon"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="500dp"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/foodstandicon" />
+
+        <ImageView
+            android:id="@+id/foodstandmsg"
+            android:layout_width="850dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="400dp"
+            android:background="@drawable/foodstandmsg" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:id="@+id/MSG_TEXT"
+            android:textColor="#000000"
+            android:textSize="60sp"
+            android:typeface="monospace"
+            android:gravity="center|center_vertical"
+            android:lines="4"
+            android:textIsSelectable="false"
+            android:textStyle="bold"
+            android:onClick="onClick" />
+    </FrameLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="190dp"
+            android:layout_height="400dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/ojigi"
+            android:layout_gravity="center"/>
+    </FrameLayout>
+</LinearLayout>

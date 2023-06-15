@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:orientation="horizontal">
+
+    <FrameLayout
+        android:id="@+id/kaikei2_main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccffff"
+        android:onClick="onClick">
+
+        <WebView
+            android:id="@+id/kaikei_web"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="onClick" />
+    </FrameLayout>
+</LinearLayout>

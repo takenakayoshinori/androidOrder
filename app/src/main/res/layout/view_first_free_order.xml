@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:onClick="onClick">
+
+
+    <Button
+        android:id="@+id/btHELP_Lange_sub"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:text="@string/ChooseLanguage"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btHELP_Lange"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fs_bt_main4_sub"
+        android:enabled="false"
+        android:onClick="onClick"
+        android:text="@string/ChooseLanguage"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/txFirstFreeOrder_Title"
+        android:layout_width="950dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/fs_tv_corner_black"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="初回は無料で、２回目からは有料となります。"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="480dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/free_order_img" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="1040dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/kura_logo_mark_bk" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="1130dp"
+        android:background="@drawable/kura_logo"/>
+
+
+    <ImageView
+        android:layout_width="1280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="683dp"
+        android:background="@drawable/kura_koshi"/>
+
+    <ImageView
+        android:layout_width="1280dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/kura_koshi"/>
+
+    <FrameLayout
+        android:id="@+id/frameFirstOrderDialog"
+        android:layout_width="1150dp"
+        android:layout_height="650dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorPrimaryDark">
+
+
+        <TextView
+            android:id="@+id/txFirstFreeOrder_Confrim"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginRight="100dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="次回注文時は有料になりますが宜しいですか?"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="80sp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="680dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/fs_bt_main1"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btFirstFreeOrder_NO"
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="690dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/fs_bt_main1_sub"
+            android:onClick="onClick"
+            android:text="いらない"
+            android:textColor="#ffffff"
+            android:textSize="60sp" />
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="370dp"
+            android:background="@drawable/fs_bt_main4"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/btFirstFreeOrder_Ok"
+            android:layout_width="330dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="380dp"
+            android:background="@drawable/fs_bt_main4_sub"
+            android:onClick="onClick"
+            android:text="   注文する  （初回無料）"
+            android:textColor="#ffffff"
+            android:textColorLink="@android:color/background_light"
+            android:textSize="45sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/txFirstFreeOrder_Message"
+        android:layout_width="1119dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:gravity="top|center"
+        android:padding="8dp"
+        android:text="特製ガリは、注文対応に変更させていただいております。"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/txFirstFreeOrderReturnMsg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:background="#000000"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="false"
+        android:text=""
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
+
+
+</FrameLayout>

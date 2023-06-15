@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:background="#446091"
+    android:baselineAligned="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#446091">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp">
+
+            <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="TEST\n win"
+                android:id="@+id/btTes1"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="TEST\n loose"
+                android:id="@+id/btTes2"
+                android:layout_marginLeft="110dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="TEST\nsound"
+                android:id="@+id/btTes3"
+                android:layout_marginLeft="220dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="force\nkaikei"
+                android:id="@+id/btTes4"
+                android:layout_marginLeft="330dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:text="ReBoot"
+                android:id="@+id/btTes5"
+                android:layout_marginLeft="440dp"
+                android:onClick="onClick" />
+        </FrameLayout>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="FTP\nImg"
+                    android:id="@+id/btTes6"
+                    android:onClick="onClick" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="FTP\nSOUND"
+                    android:id="@+id/btTes7"
+                    android:layout_marginLeft="110dp"
+                    android:onClick="onClick" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="FTP\nMOVE"
+                    android:id="@+id/btTes8"
+                    android:layout_marginLeft="220dp"
+                    android:onClick="onClick" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="NETA\nGET"
+                    android:id="@+id/btTes9"
+                    android:layout_marginLeft="330dp"
+                    android:onClick="onClick" />
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="60dp"
+                    android:text="TAG\nGET"
+                    android:id="@+id/btTes10"
+                    android:layout_marginLeft="440dp"
+                    android:onClick="onClick" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="500dp"
+                        android:layout_height="50dp"
+                        android:text="-----WIFI_TEST-----"
+                        android:textSize="30sp"
+                        android:textColor="#ffffff"
+                        android:textAlignment="center" />
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:text="WIFI\ON/OFF"
+                        android:id="@+id/btTesWifiOnOFF"
+                        android:onClick="onClick"
+                        android:layout_marginLeft="100dp" />
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="60dp"
+                        android:text="WIFI\SET"
+                        android:id="@+id/WifiTest"
+                        android:onClick="onClick" />
+
+                    <TextView
+                        android:layout_width="550dp"
+                        android:layout_height="250dp"
+                        android:text="tvWifiInfo"
+                        android:id="@+id/textView2"
+                        android:layout_marginTop="300dp"
+                        android:background="#ffffff" />
+
+                </FrameLayout>
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="600dp"
+            android:layout_height="700dp"
+            android:layout_marginLeft="50dp">
+
+            <Button
+                android:layout_width="600dp"
+                android:layout_height="80dp"
+                android:text="btTesCat"
+                android:id="@+id/btTesCat"
+                android:background="#ff9696"
+                android:onClick="onClick" />
+
+            <TextView
+                android:layout_width="600dp"
+                android:layout_height="600dp"
+                android:id="@+id/tvTesCon"
+                android:background="#ffffff"
+                android:layout_marginTop="80dp"
+                android:textSize="20sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

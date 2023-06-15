@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ichimatsu"
+    android:weightSum="1"
+    android:onClick="onClick">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.54">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.54"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/ARRIVE_TITLE_UNDER"
+                android:layout_width="1200dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="5dp"
+                android:background="#a52a2a"
+                android:text="ご注文の商品が到着いたします"
+                android:textAlignment="center"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/ARRIVE_NAME1_UNDER"
+                    android:layout_width="800dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="60sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/ARRIVE_UNIT1_UNDER"
+                    android:layout_width="230dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="750dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="80sp" />
+
+                <ImageView
+                    android:id="@+id/ARRIVE_IMG1_UNDER"
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:layout_gravity="top"
+                    android:layout_marginLeft="980dp"
+                    android:background="#706767"
+                    android:contentDescription="@string/noImg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/ARRIVE_NAME2_UNDER"
+                    android:layout_width="800dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="60sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <ImageView
+                    android:id="@+id/ARRIVE_IMG2_UNDER"
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="980dp"
+                    android:background="#706767"
+                    android:contentDescription="@string/noImg" />
+
+                <TextView
+                    android:id="@+id/ARRIVE_UNIT2_UNDER"
+                    android:layout_width="230dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="750dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="80sp" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/ARRIVE_NAME3_UNDER"
+                    android:layout_width="800dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="60sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/ARRIVE_UNIT3_UNDER"
+                    android:layout_width="230dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="750dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="80sp" />
+
+                <ImageView
+                    android:id="@+id/ARRIVE_IMG3_UNDER"
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="980dp"
+                    android:background="#706767"
+                    android:contentDescription="@string/noImg" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:id="@+id/ARRIVE_NAME4_UNDER"
+                    android:layout_width="800dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="60sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/ARRIVE_UNIT4_UNDER"
+                    android:layout_width="230dp"
+                    android:layout_height="150dp"
+                    android:layout_marginLeft="750dp"
+                    android:paddingTop="20dp"
+                    android:textColor="#000000"
+                    android:textSize="80sp" />
+
+                <ImageView
+                    android:id="@+id/ARRIVE_IMG4_UNDER"
+                    android:layout_width="240dp"
+                    android:layout_height="140dp"
+                    android:layout_marginLeft="980dp"
+                    android:background="#706767"
+                    android:contentDescription="@string/noImg" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ARRIVE_DOUBLEPLATE_TEXT_UNDER"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimary"
+            android:gravity="center|top|center_vertical"
+            android:padding="100dp"
+            android:text=" 全てのお皿を両手でお取り下さい"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#000000"
+            android:textSize="110sp" />
+
+        <ImageView
+            android:id="@+id/ARRIVE_DOUBLEIMG_UNDER"
+            android:layout_width="800dp"
+            android:layout_height="400dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/doubleplate" />
+
+
+        <FrameLayout
+            android:id="@+id/ARRIVE_FOOD_STAND_LAYOUT_UNDER"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/ARRIVE_FOOD_STAND_MSG_UNDER"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+            <ImageView
+                android:id="@+id/imgfoodstandhedder_UNDER"
+                android:layout_width="1200dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/foodstandicontitle" />
+
+            <ImageView
+                android:id="@+id/imgfoodstandfooder_UNDER"
+                android:layout_width="1200dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="500dp"
+                android:background="@drawable/foodstandhoodermsg" />
+
+            <ImageView
+                android:id="@+id/imgfoodstandmid_UNDER"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="220dp"
+                android:background="@drawable/foodstandmidmsg" />
+
+            <TextView
+                android:id="@+id/ARRIVE_FOOD_STAND_ICE_MASK_UNDER"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="600dp"
+                android:background="#ffffff"
+                android:textAlignment="center"
+                android:textSize="50sp" />
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btArrive_BACK_btback_UNDER"
+            android:layout_width="500dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/fs_bt_main10"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="70sp" />
+
+        <Button
+            android:id="@+id/btArrive_BACK_UNDER"
+            android:layout_width="480dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:background="@drawable/fs_bt_main10_sub"
+            android:onClick="onClick"
+            android:text="確認"
+            android:textColor="#ffffff"
+            android:textSize="60sp" />
+
+
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffffff"
+android:onClick="onClick">
+
+
+    <Button
+        android:id="@+id/btHELP_Case1"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="400dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/fs_bt_main1"
+        android:onClick="onClick"
+        android:text="@string/ok"
+        android:textColor="#ffffff"
+        android:textSize="80sp"
+        android:visibility="invisible" />
+
+    <Button
+        android:layout_height="120dp"
+        android:text="@string/ok"
+        android:id="@+id/btHELP_Case2"
+        android:background="@drawable/fs_bt_main1"
+        android:onClick="onClick"
+        android:textSize="80sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="700dp"
+        android:layout_width="250dp"
+        android:visibility="invisible" />
+
+
+    <Button
+            android:layout_height="120dp"
+        android:text="@string/back"
+        android:id="@+id/btHELP_BACK"
+        android:background="@drawable/fs_bt_main3"
+        android:onClick="onClick"
+            android:textSize="80sp"
+        android:textColor="#ffffff"
+            android:layout_marginLeft="700dp"
+            android:layout_marginTop="500dp"
+            android:visibility="invisible"
+            android:layout_width="250dp" />
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="700dp"
+        android:background="@android:color/white"
+        android:rotation="45" />
+
+
+    <TextView
+        android:id="@+id/txHELP_Title"
+        android:layout_width="750dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/fs_tv_corner_black"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="食べたお皿で楽しむゲーム"
+        android:textColor="#000000"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+
+    <TextView
+        android:id="@+id/txHELP_Message"
+        android:layout_width="1002dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="-80dp"
+        android:layout_marginTop="200dp"
+        android:gravity="top|center"
+        android:padding="8dp"
+        android:text="びっくらぽんを楽しみますか？"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btHELP_Case3"
+        android:layout_width="250dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="1000dp"
+        android:layout_marginTop="700dp"
+        android:background="@drawable/fs_bt_main1"
+        android:onClick="onClick"
+        android:text="@string/ok"
+        android:textColor="#ffffff"
+        android:textSize="80sp"
+        android:visibility="invisible" />
+
+
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/fs_bt_main1"
+        android:textColor="#ffffff"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="60sp" />
+
+    <Button
+        android:id="@+id/btHELP_Ok"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/fs_bt_main1_sub"
+        android:onClick="onClick"
+        android:text="@string/YES"
+        android:textColor="#ffffff"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="720dp"
+        android:layout_marginTop="510dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
+    <Button
+        android:id="@+id/btHELP_NO"
+        android:layout_width="330dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="730dp"
+        android:layout_marginTop="520dp"
+        android:background="@drawable/fs_bt_main4_sub"
+        android:onClick="onClick"
+        android:text="@string/NOT"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
+
+
+    <Button
+        android:id="@+id/btHELP_Lange_sub"
+        android:layout_width="220dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:textColor="#ffffff"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btHELP_Lange"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/fs_bt_main4_sub"
+        android:onClick="onClick"
+        android:text="@string/ChooseLanguage"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="1040dp"
+        android:background="@drawable/kura_logo_mark_bk"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="1130dp"
+        android:background="@drawable/kura_logo"/>
+
+
+    <ImageView
+        android:layout_width="1280dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="683dp"
+        android:background="@drawable/kura_koshi"/>
+
+
+</FrameLayout>
+

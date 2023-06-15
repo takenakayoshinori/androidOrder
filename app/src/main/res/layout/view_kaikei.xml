@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="onClick"
+    android:background="@drawable/background_ichimatsu">
+
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvKaikeiTitle_sub1"
+            android:layout_width="210dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:background="#a52a2a"
+            android:textAlignment="center"
+            android:typeface="monospace" />
+        <TextView
+            android:id="@+id/tvKaikeiTitle_sub2"
+            android:layout_width="210dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="50dp"
+            android:background="#ffffff"
+            android:textAlignment="center"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvKaikeiTitle"
+            android:layout_width="210dp"
+            android:layout_height="260dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="60dp"
+            android:background="#a52a2a"
+            android:paddingTop="10dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvKaikeiWait"
+            android:layout_width="210dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:paddingTop="40dp"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textIsSelectable="true"
+            android:textSize="25sp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tvKaikeiTitleSub1"
+            android:layout_width="205dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="330dp"
+            android:gravity="center|center_vertical"
+            android:textColor="#000000"
+            android:textIsSelectable="false"
+            android:textSize="30sp"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/KAIKEI_SARA"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/fs_bt_main4_sub2"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:textAlignment="center"
+            android:textColor="#010101"
+            android:textSize="95sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/KAIKEI_SARA_COUNT"
+            android:layout_width="210dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="550dp"
+            android:background="#a52a2a"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:text="枚"
+            android:typeface="monospace" />
+
+
+        <Button
+            android:id="@+id/KAIKEI_BACK_sub"
+            android:layout_width="210dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="640dp"
+            android:background="@drawable/fs_bt_main3"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="50sp"
+            android:typeface="monospace"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/KAIKEI_BACK"
+            android:layout_width="190dp"
+            android:layout_height="110dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="650dp"
+            android:background="@drawable/fs_bt_main3_sub"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="45sp"
+            android:typeface="monospace"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="1030dp"
+        android:layout_height="790dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/background_ichimatsu"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvKaikeiTitleSub2"
+            android:layout_width="1020dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:text="本日は、ありがとうございました。"
+            android:textColor="#000000"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvKaikeiTitleSub3"
+            android:layout_width="1020dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textSize="35sp"
+            android:text="従業員がお席までまいります。しばらくおまちください。"
+            android:textStyle="bold"
+            android:typeface="monospace"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME1"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="3dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT1"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME11"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="3dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT11"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME2"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT2"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME12"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT12"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME3"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT3"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME13"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT13"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME4"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT4"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME14"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT14"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME5"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT5"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME15"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT15"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME6"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="3dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT6"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME16"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="3dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT16"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME7"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT7"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME17"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT17"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME8"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT8"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME18"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT18"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME9"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT9"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME19"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT19"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME10"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT10"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_NAME20"
+                android:layout_width="400dp"
+                android:layout_height="60dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="viewStart"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/KAIKEI_CAT_COUNT20"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="1dp"
+                android:background="#e7d774"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="50sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

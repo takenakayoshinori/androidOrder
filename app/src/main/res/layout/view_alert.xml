@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ichimatsu"
+    android:onClick="onClick">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="280dp"
+            android:background="#a52a2a"
+            android:textSize="65sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/tvCALL_MSG"
+            android:layout_width="930dp"
+            android:layout_height="280dp"
+            android:layout_marginLeft="350dp"
+            android:background="#a52a2a"
+            android:gravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="60sp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/kura_exclamation" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:id="@+id/btCALL_BACK_sub"
+            android:layout_width="360dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginTop="105dp"
+            android:background="@drawable/fs_bt_main3"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="80sp" />
+
+        <Button
+            android:id="@+id/btCALL_BACK"
+            android:layout_width="340dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/fs_bt_main3_sub"
+            android:onClick="onClick"
+            android:textColor="#ffffff"
+            android:textSize="70sp" />
+    </FrameLayout>
+</LinearLayout>

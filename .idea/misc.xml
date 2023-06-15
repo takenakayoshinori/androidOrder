@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_back_1.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main1.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main10.xml" value="0.16328125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main1_ring.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main1_sub.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main3.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/fs_bt_main3_sub.xml" value="0.155078125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/drawable/ftame_style1.xml" value="0.136875" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_alert.xml" value="0.126953125" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_dxgamekaikeialert.xml" value="0.22" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_help.xml" value="0.275" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_kaikei.xml" value="0.22" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_kaikei2.xml" value="0.33" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_linkqr.xml" value="0.25" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_mov2.xml" value="0.1" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_order2.xml" value="0.147265625" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_order_self.xml" value="0.10711553175210406" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_qrcode.xml" value="0.10711553175210406" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_rireki.xml" value="0.2373768472906404" />
+        <entry key="..\:/Users/admin/Desktop/android_works/AndOrder/app/src/main/res/layout/view_sp_check.xml" value="0.12892119357306808" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

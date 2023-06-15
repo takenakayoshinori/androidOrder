@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/MAIN_FRAME"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_ichimatsu"
+    tools:context="com.kura.andorder.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="1180dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="625dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/bt_tag1"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag2"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="127dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag3"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="254dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag4"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="381dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag5"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="508dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag6"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="635dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_tag7"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="762dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/bt_tag8"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="889dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/bt_tag9"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="1016dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_tag0"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:typeface="sans" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="140dp"
+        android:layout_height="1000dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_main11"
+            android:layout_width="130dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/fs_bt_main4"
+            android:onClick="onClick"
+            android:padding="5dp"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/mT_Menu"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/mT_tableNum"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="2dp"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/bt_main6_sub"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fs_bt_main6"
+            android:textColor="#ffffff"
+            android:textSize="65sp"
+            android:typeface="monospace"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_main6"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="110dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/fs_bt_main6_sub"
+            android:foregroundGravity="center_vertical"
+            android:textColor="#ffffff"
+            android:textSize="65sp"
+            android:typeface="monospace"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/mT_P"
+            android:layout_width="130dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="110dp"
+            android:background="#000000"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/bt_main9"
+            android:layout_width="130dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="140dp"
+            android:background="@drawable/fs_bt_main4"
+            android:fontFamily="monospace"
+            android:padding="5dp"
+            android:text="@string/ChooseLanguage"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/bt_main10"
+            android:layout_width="130dp"
+            android:layout_height="85dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="230dp"
+            android:background="@drawable/fs_bt_main4"
+            android:fontFamily="casual"
+            android:padding="5dp"
+            android:text="ゲーム設定変更"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mT_Sara"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="410dp"
+            android:background="#808000"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/bt_main7"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/fs_bt_main8"
+            android:foregroundGravity="center_vertical"
+            android:textSize="60sp"
+            android:typeface="monospace"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/mT_SaraUnit"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="509dp"
+            android:background="#808000"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/mT_Wait"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="540dp"
+            android:background="#808000"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/bt_main8"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="580dp"
+            android:background="@drawable/fs_bt_main8"
+            android:foregroundGravity="center"
+            android:paddingBottom="2dp"
+            android:textSize="65sp"
+            android:typeface="monospace"
+            android:visibility="visible"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/mT_WaitUnit"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="660dp"
+            android:background="#808000"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="16sp"
+            android:typeface="monospace" />
+
+
+        <ImageView
+            android:id="@+id/bt_main14"
+            android:layout_width="130dp"
+            android:layout_height="91dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="700dp"
+            android:adjustViewBounds="true"
+            android:background="@drawable/kura_logo"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/bt_main12"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="800dp"
+            android:background="@drawable/fs_bt_main3"
+            android:onClick="onClick"
+            android:text="操作説明"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/mT_AppVer"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="840dp"
+            android:hapticFeedbackEnabled="true"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/mT_MemInfo"
+            android:layout_width="130dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="860dp"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:typeface="monospace"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bt_main_linkqr"
+            android:layout_width="135dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="690dp"
+            android:background="@drawable/fs_bt_ok_1"
+            android:onClick="onClick"
+<<<<<<< HEAD
+            android:text="QR"
+            android:textColor="#FFFFFF"
+            android:textSize="60sp" />
+=======
+            android:text="ゲーム\nチケット\n確認"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+>>>>>>> bdd96031fb7465e981103be81608750222a8869a
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="1150dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="685dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_main1"
+            android:layout_width="290dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fs_bt_main1"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textIsSelectable="false"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_main2"
+            android:layout_width="290dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fs_bt_main1"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_main3"
+            android:layout_width="170dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="600dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_main2"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/bt_main4"
+            android:layout_width="170dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="780dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/fs_bt_main2"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/bt_main5"
+            android:layout_width="170dp"
+            android:layout_height="95dp"
+            android:layout_marginLeft="960dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fs_bt_main4"
+            android:focusable="false"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/Li_MainTableBack"
+        android:layout_width="1160dp"
+        android:layout_height="630dp"
+        android:layout_marginLeft="140dp"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/netaImg1"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/noImg"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/netaNameB1"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="148dp"
+            android:background="#000000"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:typeface="normal"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/netaNameA1"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="178dp"
+            android:background="#000000"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!--
+        <TextView
+            android:id="@+id/netaSINAGIRE1"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"
+            android:alpha="0.7"
+            android:background="@drawable/sinagire"
+            android:visibility="visible" />
+            -->
+
+        <ImageButton
+            android:id="@+id/netaImg2"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="2dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:contentDescription="@string/noImg"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/netaNameB2"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="148dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/netaNameA2"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="178dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!--
+        <TextView
+            android:id="@+id/netaSINAGIRE2"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="10dp"
+            android:alpha="0.7"
+            android:background="@drawable/sinagire"
+            android:visibility="visible" />
+             -->
+
+
+        <ImageButton
+            android:id="@+id/netaImg3"
+            android:layout_width="280dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="575dp"
+            android:layout_marginTop="2dp"
+            android:background="@null"
+            android:contentDescription="@string/noImg"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/netaNameB3"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="575dp"
+            android:layout_marginTop="148dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/netaNameA3"
+            android:layout_width="280dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="575dp"
+            android:layout_marginTop="178dp"
+            android:background="#000000"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!--
+       <TextView
+           android:id="@+id/netaSINAGIRE3"
+           android:layout_width="200dp"
+           android:layout_height="150dp"
+           android:layout_marginLeft="615dp"
+           android:layout_marginTop="10dp"
+           android:alpha="0.7"
+           android:background="@drawable/sinagire"
+           android:visibility="visible" />
+             -->
+
+
+       <ImageButton
+           android:id="@+id/netaImg4"
+           android:layout_width="280dp"
+           android:layout_height="200dp"
+           android:layout_marginLeft="860dp"
+           android:layout_marginTop="2dp"
+           android:background="@null"
+           android:contentDescription="@string/noImg"
+           android:scaleType="fitXY" />
+
+       <TextView
+           android:id="@+id/netaNameB4"
+           android:layout_width="280dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="860dp"
+           android:layout_marginTop="148dp"
+           android:background="#000000"
+           android:textAlignment="center"
+           android:textColor="#ffffff"
+           android:textSize="22sp"
+           android:textStyle="bold" />
+
+       <TextView
+           android:id="@+id/netaNameA4"
+           android:layout_width="280dp"
+           android:layout_height="30dp"
+           android:layout_marginLeft="860dp"
+           android:layout_marginTop="178dp"
+           android:background="#000000"
+           android:textAlignment="center"
+           android:textColor="#ffffff"
+           android:textSize="22sp"
+           android:textStyle="bold" />
+
+        <!--
+     <TextView
+         android:id="@+id/netaSINAGIRE4"
+         android:layout_width="200dp"
+         android:layout_height="150dp"
+         android:layout_marginLeft="900dp"
+         android:layout_marginTop="10dp"
+         android:alpha="0.7"
+         android:background="@drawable/sinagire"
+         android:visibility="visible" />
+          -->
+
+     <ImageButton
+         android:id="@+id/netaImg5"
+         android:layout_width="280dp"
+         android:layout_height="200dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="210dp"
+         android:adjustViewBounds="false"
+         android:background="@null"
+         android:contentDescription="@string/noImg"
+         android:scaleType="fitXY" />
+
+     <TextView
+         android:id="@+id/netaNameB5"
+         android:layout_width="280dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="358dp"
+         android:background="#000000"
+         android:textAlignment="center"
+         android:textColor="#ffffff"
+         android:textSize="22sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/netaNameA5"
+         android:layout_width="280dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginTop="388dp"
+         android:background="#000000"
+         android:textAlignment="center"
+         android:textColor="#ffffff"
+         android:textSize="22sp"
+         android:textStyle="bold" />
+
+        <!--
+   <TextView
+       android:id="@+id/netaSINAGIRE5"
+       android:layout_width="200dp"
+       android:layout_height="150dp"
+       android:layout_marginLeft="45dp"
+       android:layout_marginTop="218dp"
+       android:alpha="0.7"
+       android:background="@drawable/sinagire"
+       android:visibility="visible" />
+       -->
+
+   <ImageButton
+       android:id="@+id/netaImg6"
+       android:layout_width="280dp"
+       android:layout_height="200dp"
+       android:layout_marginLeft="290dp"
+       android:layout_marginTop="210dp"
+       android:adjustViewBounds="false"
+       android:background="@null"
+       android:contentDescription="@string/noImg"
+       android:scaleType="fitXY" />
+
+   <TextView
+       android:id="@+id/netaNameB6"
+       android:layout_width="280dp"
+       android:layout_height="30dp"
+       android:layout_marginLeft="290dp"
+       android:layout_marginTop="358dp"
+       android:background="#000000"
+       android:textAlignment="center"
+       android:textColor="#ffffff"
+       android:textSize="22sp"
+       android:textStyle="bold" />
+
+   <TextView
+       android:id="@+id/netaNameA6"
+       android:layout_width="280dp"
+       android:layout_height="30dp"
+       android:layout_marginLeft="290dp"
+       android:layout_marginTop="388dp"
+       android:background="#000000"
+       android:textAlignment="center"
+       android:textColor="#ffffff"
+       android:textSize="22sp"
+       android:textStyle="bold" />
+
+        <!--
+  <TextView
+      android:id="@+id/netaSINAGIRE6"
+      android:layout_width="200dp"
+      android:layout_height="150dp"
+      android:layout_marginLeft="330dp"
+      android:layout_marginTop="218dp"
+      android:alpha="0.7"
+      android:background="@drawable/sinagire"
+      android:visibility="visible" />
+      -->
+
+  <ImageButton
+      android:id="@+id/netaImg7"
+      android:layout_width="280dp"
+      android:layout_height="200dp"
+      android:layout_marginLeft="575dp"
+      android:layout_marginTop="210dp"
+      android:adjustViewBounds="true"
+      android:background="@null"
+      android:contentDescription="@string/noImg"
+      android:scaleType="fitXY" />
+
+  <TextView
+      android:id="@+id/netaNameB7"
+      android:layout_width="280dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="575dp"
+      android:layout_marginTop="358dp"
+      android:background="#000000"
+      android:textAlignment="center"
+      android:textColor="#ffffff"
+      android:textSize="22sp"
+      android:textStyle="bold" />
+
+  <TextView
+      android:id="@+id/netaNameA7"
+      android:layout_width="280dp"
+      android:layout_height="30dp"
+      android:layout_marginLeft="575dp"
+      android:layout_marginTop="388dp"
+      android:background="#000000"
+      android:textAlignment="center"
+      android:textColor="#ffffff"
+      android:textSize="22sp"
+      android:textStyle="bold" />
+
+        <!--
+ <TextView
+     android:id="@+id/netaSINAGIRE7"
+     android:layout_width="200dp"
+     android:layout_height="150dp"
+     android:layout_marginLeft="615dp"
+     android:layout_marginTop="218dp"
+     android:alpha="0.7"
+     android:background="@drawable/sinagire"
+     android:visibility="visible" />
+     -->
+
+ <ImageButton
+     android:id="@+id/netaImg8"
+     android:layout_width="280dp"
+     android:layout_height="200dp"
+     android:layout_marginLeft="860dp"
+     android:layout_marginTop="210dp"
+     android:adjustViewBounds="true"
+     android:background="@null"
+     android:contentDescription="@string/noImg"
+     android:scaleType="fitXY" />
+
+ <TextView
+     android:id="@+id/netaNameB8"
+     android:layout_width="280dp"
+     android:layout_height="30dp"
+     android:layout_marginLeft="860dp"
+     android:layout_marginTop="358dp"
+     android:background="#000000"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="22sp"
+     android:textStyle="bold" />
+
+
+ <TextView
+     android:id="@+id/netaNameA8"
+     android:layout_width="280dp"
+     android:layout_height="30dp"
+     android:layout_marginLeft="860dp"
+     android:layout_marginTop="388dp"
+     android:background="#000000"
+     android:textAlignment="center"
+     android:textColor="#ffffff"
+     android:textSize="22sp"
+     android:textStyle="bold" />
+
+        <!--
+<TextView
+  android:id="@+id/netaSINAGIRE8"
+  android:layout_width="200dp"
+  android:layout_height="150dp"
+  android:layout_marginLeft="900dp"
+  android:layout_marginTop="218dp"
+  android:alpha="0.7"
+  android:background="@drawable/sinagire"
+  android:visibility="visible" />
+  -->
+
+
+<ImageButton
+  android:id="@+id/netaImg9"
+  android:layout_width="280dp"
+  android:layout_height="200dp"
+  android:layout_marginLeft="5dp"
+  android:layout_marginTop="422dp"
+  android:background="@null"
+  android:contentDescription="@string/noImg"
+  android:scaleType="fitXY" />
+
+<TextView
+  android:id="@+id/netaNameB9"
+  android:layout_width="280dp"
+  android:layout_height="30dp"
+  android:layout_marginLeft="5dp"
+  android:layout_marginTop="570dp"
+  android:background="#000000"
+  android:textAlignment="center"
+  android:textColor="#ffffff"
+  android:textSize="22sp"
+  android:textStyle="bold" />
+
+<TextView
+  android:id="@+id/netaNameA9"
+  android:layout_width="280dp"
+  android:layout_height="30dp"
+  android:layout_marginLeft="5dp"
+  android:layout_marginTop="600dp"
+  android:background="#000000"
+  android:textAlignment="center"
+  android:textColor="#ffffff"
+  android:textSize="22sp"
+  android:textStyle="bold" />
+
+        <!--
+<TextView
+android:id="@+id/netaSINAGIRE9"
+android:layout_width="200dp"
+android:layout_height="150dp"
+android:layout_marginLeft="45dp"
+android:layout_marginTop="430dp"
+android:alpha="0.7"
+android:background="@drawable/sinagire"
+android:visibility="visible" />
+-->
+
+<ImageButton
+android:id="@+id/netaImg10"
+android:layout_width="280dp"
+android:layout_height="200dp"
+android:layout_marginLeft="290dp"
+android:layout_marginTop="422dp"
+android:background="@null"
+android:contentDescription="@string/noImg"
+android:scaleType="fitXY" />
+
+<TextView
+android:id="@+id/netaNameB10"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="290dp"
+android:layout_marginTop="570dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/netaNameA10"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="290dp"
+android:layout_marginTop="600dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+        <!--
+<TextView
+android:id="@+id/netaSINAGIRE10"
+android:layout_width="200dp"
+android:layout_height="150dp"
+android:layout_marginLeft="330dp"
+android:layout_marginTop="430dp"
+android:alpha="0.7"
+android:background="@drawable/sinagire"
+android:visibility="visible" />
+-->
+
+<ImageButton
+android:id="@+id/netaImg11"
+android:layout_width="280dp"
+android:layout_height="200dp"
+android:layout_marginLeft="575dp"
+android:layout_marginTop="422dp"
+android:background="@null"
+android:contentDescription="@string/noImg"
+android:scaleType="fitXY" />
+
+<TextView
+android:id="@+id/netaNameB11"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="575dp"
+android:layout_marginTop="570dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/netaNameA11"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="575dp"
+android:layout_marginTop="600dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+        <!--
+<TextView
+android:id="@+id/netaSINAGIRE11"
+android:layout_width="200dp"
+android:layout_height="150dp"
+android:layout_marginLeft="615dp"
+android:layout_marginTop="430dp"
+android:alpha="0.7"
+android:background="@drawable/sinagire"
+android:visibility="visible" />
+-->
+
+<ImageButton
+android:id="@+id/netaImg12"
+android:layout_width="280dp"
+android:layout_height="200dp"
+android:layout_marginLeft="860dp"
+android:layout_marginTop="422dp"
+android:background="@null"
+android:contentDescription="@string/noImg"
+android:scaleType="fitXY" />
+
+<TextView
+android:id="@+id/netaNameB12"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="860dp"
+android:layout_marginTop="570dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+<TextView
+android:id="@+id/netaNameA12"
+android:layout_width="280dp"
+android:layout_height="30dp"
+android:layout_marginLeft="860dp"
+android:layout_marginTop="600dp"
+android:background="#000000"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22sp"
+android:textStyle="bold" />
+
+        <!--
+<TextView
+android:id="@+id/netaSINAGIRE12"
+android:layout_width="200dp"
+android:layout_height="150dp"
+android:layout_marginLeft="900dp"
+android:layout_marginTop="430dp"
+android:alpha="0.7"
+android:background="@drawable/sinagire"
+android:visibility="visible" />
+-->
+<<<<<<< HEAD
+=======
+
+</FrameLayout>
+>>>>>>> bdd96031fb7465e981103be81608750222a8869a
+
+</FrameLayout>
+
+<<<<<<< HEAD
+
+<FrameLayout
+android:id="@+id/BIG_NETA_FRAME"
+android:layout_width="870dp"
+android:layout_height="420dp"
+android:layout_marginLeft="140dp"
+android:background="@android:color/holo_blue_dark"
+android:visibility="gone">
+
+<ImageButton
+android:id="@+id/netaImgBIG"
+android:layout_width="870dp"
+android:layout_height="420dp"
+android:padding="5dp"
+android:scaleType="fitXY"
+android:visibility="gone" />
+
+
+<TextView
+android:id="@+id/netaNameBIG"
+android:layout_width="870dp"
+android:layout_height="60dp"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="360dp"
+android:background="#000000"
+android:text="Hello World!"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22dp"
+android:textStyle="bold" />
+
+=======
+<FrameLayout
+android:id="@+id/BIG_NETA_FRAME"
+android:layout_width="870dp"
+android:layout_height="420dp"
+android:layout_marginLeft="140dp"
+android:background="@android:color/holo_blue_dark"
+android:visibility="gone">
+
+<ImageButton
+android:id="@+id/netaImgBIG"
+android:layout_width="870dp"
+android:layout_height="420dp"
+android:padding="5dp"
+android:scaleType="fitXY"
+android:visibility="gone" />
+
+
+<TextView
+android:id="@+id/netaNameBIG"
+android:layout_width="870dp"
+android:layout_height="60dp"
+android:layout_gravity="center_horizontal"
+android:layout_marginTop="360dp"
+android:background="#000000"
+android:text="Hello World!"
+android:textAlignment="center"
+android:textColor="#ffffff"
+android:textSize="22dp"
+android:textStyle="bold" />
+
+>>>>>>> bdd96031fb7465e981103be81608750222a8869a
+</FrameLayout>
+
+</FrameLayout>

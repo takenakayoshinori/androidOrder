@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:onClick="onClick"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btFlash_bt_cat2"
+        android:layout_width="1000dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="550dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:text="初めてご利用のお客様"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/btFlash_background"
+        android:layout_width="1170dp"
+        android:layout_height="550dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="70dp"
+        android:onClick="onClick"
+        android:textColor="#ffffff"
+        android:textSize="100sp" />
+
+    <Button
+        android:layout_width="850dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fs_bt_main4"
+        android:textColor="#ffffff"
+        android:textSize="60sp" />
+
+    <Button
+        android:layout_width="830dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:text="こちらのお席は             　  　　です。"
+        android:textColor="#ffffff"
+        android:textColorLink="@android:color/background_light"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/btFlash"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_gravity="center|bottom"
+        android:layout_marginLeft="70dp"
+        android:layout_marginBottom="650dp"
+        android:background="@drawable/fs_bt_main4"
+        android:onClick="onClick"
+        android:text="99番"
+        android:textColor="#ffffff"
+        android:textSize="70sp" />
+
+    <Button
+        android:id="@+id/btFlash_bt_cat1"
+        android:layout_width="700dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="false"
+        android:layout_gravity="center|bottom"
+        android:background="@drawable/fs_bt_main5"
+        android:onClick="onClick"
+        android:text="タッチして注文画面に進む"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:visibility="visible" />
+
+</FrameLayout>

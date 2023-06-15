@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="#dafcff"
+    android:onClick="onClick">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/ORDER_SELF_TITLE"
+        android:textColor="#ffffff"
+        android:textSize="55sp"
+        android:typeface="monospace"
+        android:textAlignment="center"
+        android:background="#002fff"
+        android:layout_gravity="top"
+        android:paddingTop="30dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="800dp"
+            android:layout_height="250dp"
+            android:id="@+id/ORDER_SELF_NAME"
+            android:layout_weight="0.34"
+            android:textColor="#000000"
+            android:textSize="75sp"
+            android:typeface="monospace"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            android:paddingTop="50dp" />
+
+
+        <ImageView
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:id="@+id/ORDER_SELF_IMG"
+            android:background="#1d1a18"
+            android:layout_marginLeft="900dp"
+            android:contentDescription="@string/noImg"
+            android:layout_gravity="center_vertical" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp">
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:text="戻る"
+            android:id="@+id/OrderSelfBack"
+            android:layout_gravity="center"
+            android:onClick="onClick"
+            android:textSize="80sp"
+            android:textColor="#ffffff"
+            android:layout_weight="0.52"
+            android:background="@drawable/fs_bt_main3" />
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/ID_MOV2_VIEW"
+    android:onClick="onClick"
+    android:foreground="#000000"
+    android:background="#000000">
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:id="@+id/MOV2_FRAME">
+
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/MOV2_VIEW"
+            android:onClick="onClick"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btMOV2_back"
+            android:layout_width="350dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="900dp"
+            android:layout_marginTop="650dp"
+            android:background="@drawable/fs_bt_main1_sub"
+            android:onClick="onClick"
+            android:text="タッチして    注文画面へ"
+            android:textColor="#ffffff"
+            android:textSize="48sp"
+            android:visibility="gone" />
+
+    </FrameLayout>
+</LinearLayout>

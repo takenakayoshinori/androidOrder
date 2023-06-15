@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- ボタンが押されてない時 -->
+    <item android:state_pressed="false">
+        <!-- ボタンの形状 -->
+        <shape
+            android:innerRadius="40dp"
+            android:thicknessRatio="5"
+            android:shape="oval"
+            android:useLevel="false">
+        <!-- ボタンの色 -->
+            <solid android:color="#191970"/>
+            <!-- ボタンの枠線 -->
+            <stroke android:width="1dp" android:color="#191970"/>
+            <size android:width="150dp" android:height="150dp"/>
+        </shape>
+    </item>
+</selector>
+
+ 
